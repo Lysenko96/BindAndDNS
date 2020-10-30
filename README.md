@@ -1,1 +1,1 @@
-# Bind9 and DNS configuration
+# Bind9, DNS and Nginx configuration
