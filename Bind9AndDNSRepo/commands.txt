@@ -23,7 +23,7 @@ ns2 IN A 127.0.0.1
 #3)в /var/cache/bind/ создать файл master.conf c параметрами:
 zone "example.com" {
 type master;
-type "example";
+file "example"; path for directory
 };
 
 проверить работоспособность dig example.com
